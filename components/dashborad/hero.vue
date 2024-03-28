@@ -23,7 +23,7 @@
                 <UButton
                     icon="i-heroicons-hand-thumb-up"
                     label='Support us' 
-                    class="bg-gray-700 dark:text-gray-500 hover:bg-gray-600 px-3.5 py-2.5 text-medium font-semibold shadow rounded-lg "
+                    class="focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 flex-shrink-0 font-medium rounded-md text-base gap-x-2.5 px-3.5 py-2.5 shadow-sm ring-1 ring-inset ring-gray-300 dark:ring-gray-700 text-gray-900 dark:text-white bg-white hover:bg-gray-50 dark:bg-gray-900 dark:hover:bg-gray-800/50 inline-flex items-center"
                 />
             </div>
 

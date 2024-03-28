@@ -1,6 +1,6 @@
 <template>
     <div class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-8 "> 
-        <UCard class="gap-x-8 gap-y-4 rounded-xl flex-1 flex flex-col px-4 py-5 sm:p-6">
+        <UCard class="">
             <Placeholder class="h-32 " />
       
             <div class="mb-2 pointer-events-none">
