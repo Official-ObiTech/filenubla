@@ -1,13 +1,14 @@
 <template>
+    <div class="rounded-xl divide-y divide-gray-200 dark:divide-gray-800 ring-1 ring-gray-200 dark:ring-gray-800 shadow dark:shadow-2xl bg-white dark:bg-gray-900">
     <div 
-       class="flex flex-col lg:grid lg:grid-col-2 lg:items-center gap-16 sm:gap-y-24 px-4 sm:p-6 py-24 sm:py-32 sm:px-16 bg-gray-50 dark:gray-900">
+       class="flex flex-col lg:grid lg:grid-cols-2 lg:items-center gap-16 sm:gap-y-24 px-4 sm:p-6 py-24 sm:py-32 sm:px-16 bg-gray-50/50 dark:bg-gray-900/50">
        <div class="">
         <h2 class="text-3xl text-gray-900 dark:text-white tracking-tight sm:text-4xl lg:text-left text-center font-bold">
-            <p>
+            <span>
                 Trusted and Supported by our
                 <br class="hidden lg:block">
                 amazing communtiy
-            </p>
+            </span>
         </h2>
 
         <div class="flex items-center justify-center mt-10 gap-x-6 lg:justify-start">
@@ -151,6 +152,7 @@
             <p>starts</p>
         </NuxtLink>
        </div>
+    </div>
 
     </div>
 </template>
