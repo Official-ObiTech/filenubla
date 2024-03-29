@@ -4,7 +4,7 @@
             <dashborad-hero />
         </div>
 
-        <div class="py-24 sm:py-32 mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl gap-16 sm:gap-y-24 flex flex-col">
+        <div class="py-24 sm:py-32 mx-auto px-6 sm:px-8 lg:px-10 max-w-7xl gap-16 sm:gap-y-24 flex flex-col">
             <dashborad-hero2 />
             <dashborad-cards />
         </div>

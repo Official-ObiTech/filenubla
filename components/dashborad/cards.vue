@@ -1,7 +1,6 @@
 <template>
-    <div class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-8 "> 
+    <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 "> 
         <UCard class="">
-            <Placeholder class="h-32 " />
       
             <div class="mb-2 pointer-events-none">
                 <UIcon name="i-heroicons-bolt" class="w-8 h-8  text-gray-900 dark:text-white "/>
@@ -17,8 +16,7 @@
 
         </UCard>
 
-        <UCard class="gap-x-8 gap-y-4 rounded-xl flex-1 flex flex-col px-4 py-5 sm:p-6">
-            <Placeholder class="h-32 " />
+        <UCard class="">
       
             <div class="mb-2 pointer-events-none">
                 <UIcon name="i-heroicons-bolt" class="w-8 h-8  text-gray-900 dark:text-white "/>
@@ -34,8 +32,7 @@
 
         </UCard>
 
-        <UCard class="gap-x-8 gap-y-4 rounded-xl flex-1 flex flex-col px-4 py-5 sm:p-6">
-            <Placeholder class="h-32 " />
+        <UCard class="">
       
             <div class="mb-2 pointer-events-none">
                 <UIcon name="i-heroicons-bolt" class="w-8 h-8  text-gray-900 dark:text-white "/>
@@ -51,8 +48,7 @@
 
         </UCard>
 
-        <UCard class="gap-x-8 gap-y-4 rounded-xl flex-1 flex flex-col px-4 py-5 sm:p-6">
-            <Placeholder class="h-32 " />
+        <UCard class="">
       
             <div class="mb-2 pointer-events-none">
                 <UIcon name="i-heroicons-bolt" class="w-8 h-8  text-gray-900 dark:text-white "/>
@@ -68,8 +64,7 @@
 
         </UCard>
 
-        <UCard class="gap-x-8 gap-y-4 rounded-xl flex-1 flex flex-col px-4 py-5 sm:p-6">
-            <Placeholder class="h-32 " />
+        <UCard class="">
       
             <div class="mb-2 pointer-events-none">
                 <UIcon name="i-heroicons-bolt" class="w-8 h-8  text-gray-900 dark:text-white "/>
@@ -85,8 +80,7 @@
 
         </UCard>
         
-        <UCard class="gap-x-8 gap-y-4 rounded-xl flex-1 flex flex-col px-4 py-5 sm:p-6">
-            <Placeholder class="h-32 " />
+        <UCard class="">
       
             <div class="mb-2 pointer-events-none">
                 <UIcon name="i-heroicons-bolt" class="w-8 h-8  text-gray-900 dark:text-white "/>

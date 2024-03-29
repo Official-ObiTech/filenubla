@@ -1,6 +1,6 @@
 <template>
     <div class="flex flex-col items-center text-center">
-        <h2 class="text-3xl font-bold text-gray-900 dark:white sm:text-4xl lg:5xl tracking-tighter">
+        <h2 class="text-3xl font-bold text-gray-900 dark:text-white sm:text-4xl lg:5xl tracking-tighter">
             <div class="">
                 <p class="">
                     Build FileNubal using <br>
