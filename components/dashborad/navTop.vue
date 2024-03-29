@@ -44,12 +44,7 @@
                     </div>
 
                     <div class="relative inline-flex">
-                        <UButton
-                            icon="i-heroicons-sun-16-solid"
-                            size="sm"
-                            class="text-gray-700 dark:text-gray-200 font-medium gap-x-1 hover:bg-gray-50"
-                            variant="ghost"
-                        />
+                      <DashboradColorModeSwitch />
                     </div>
 
 
