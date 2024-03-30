@@ -16,9 +16,11 @@
             <div class="flex flex-wrap gap-x-3 gap-y-1.5 mt-8 ">
                 <UButton 
                     icon="i-heroicons-rocket-launch"
-                    label='Get Started' 
                     class="disabled:opacity-75 flex-shrink-0 font-medium rounded-md text-base gap-x-2.5 px-3.5 py-2.5 shadow-sm text-white dark:text-gray-900 bg-blue-500 hover:bg-blue-600  dark:bg-blue-400 dark:hover:bg-blue-500 inline-flex items-center "
-                />
+                >
+                <NuxtLink to="/auth">Get Started
+                </NuxtLink>
+                </UButton> 
 
                 <UButton
                     icon="i-heroicons-hand-thumb-up"
