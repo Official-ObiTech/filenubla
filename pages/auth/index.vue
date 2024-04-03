@@ -23,7 +23,7 @@
                             <UInput placeholder="Enter your email address...." icon="i-heroicons-envelope" />
                         </UFormGroup>
 
-                        <UButton block type="submit" class="py-2.5 mt-8 " >Continue with Email</UButton>
+                        <UButton block type="submit" class="py-2.5 mt-8 dark:text-white dark:hover:bg-blue-500 dark:bg-blue-600" >Continue with Email</UButton>
                     </UForm>
                 </div>
 

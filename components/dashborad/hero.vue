@@ -1,22 +1,23 @@
 <template>
   <div
-    class="mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl gap-16 sm:gap-y-24 grid md:grid-cols-2 lg:grid-cols-2 lg:items-center"
-  >
+    class="mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl gap-16 sm:gap-y-24 grid md:grid-cols-2 lg:grid-cols-2 lg:items-center">
+   
     <div class="">
       <h2
         class="text-3xl font-bold text-gray-900 dark:text-white sm:text-3xl md:text-4xl lg:text-5xl tracking-tighter"
       >
         <div class="">
           <p>
-            The Next Generation of <br />
+            Elevate Your Digital Asset Managemen with<br />
             <span class="text-blue-500">File</span>Nubla
           </p>
         </div>
       </h2>
 
-      <p class="mt-6 text-lg text-gray-600 dark:text-gray-300">
-        A collection of high-quality, unstyled components for creating <br />
-        beautiful file using Vue and TypeScript
+      <p class="mt-6 text-lg text-gray-600 dark:text-gray-300 text-sm">
+        Our platform is built on a scalable infrastructure that can grow with your business,<br />
+         ensuring that you can easily accommodate increasing file transfer demands <br /> 
+         without compromising performance or reliability.
       </p>
       <div class="flex flex-wrap gap-x-3 gap-y-1.5 mt-8">
         <UButton
@@ -34,7 +35,7 @@
       </div>
     </div>
 
-    <div class="items-center justify-between mt-32">
+    <div class="">
       <img src="../../assets/cloud.png" alt="" />
     </div>
   </div>
