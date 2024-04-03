@@ -6,7 +6,7 @@
 
                     <NuxtLink class="flex font-bold text-xl items-end dark:text-white text-gray-900 cursor-pointer" to="/" >
                         <span>
-                            <span class="text-blue-500">File</span>Nubla
+                            <span class="text-primary">File</span>Nubla
                         </span>
                     </NuxtLink>
                 </div>
@@ -20,7 +20,7 @@
 
                     <li class="relative">
                         <NuxtLink to="" class="flex font-semibold items-center gap-1 text-sm hover:text-blue-500">
-                            Releases
+                            Pricing
                         </NuxtLink>
                     </li>
 

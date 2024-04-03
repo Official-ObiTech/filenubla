@@ -4,7 +4,7 @@
             <div class="">
                 <p class="">
                     Experience Simplified  <br>
-                    <span class="text-blue-500">Document Handling</span>
+                    <span class="text-primary">Document Handling</span>
                 </p>
             </div>
         </h2>
