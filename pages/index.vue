@@ -1,11 +1,11 @@
 <template>
   <div class="">
-    <div class="py-20 sm:py-32" orientation="horizontal">
+    <div class="py-0 sm:py-32" orientation="horizontal">
       <dashborad-hero />
     </div>
 
     <div
-      class="py-20 sm:py-32 mx-auto px-6 sm:px-8 lg:px-10 max-w-7xl gap-16 sm:gap-y-24 flex flex-col"
+      class="sm:py-20 mx-auto px-6 sm:px-8 lg:px-10 max-w-7xl gap-16 sm:gap-y-20 flex flex-col py-0"
     >
       <dashborad-hero2 />
       <dashborad-cards />
