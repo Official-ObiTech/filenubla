@@ -1,3 +1,5 @@
+<script setup lang="ts"></script>
+
 <template>
   <div>
     <div class="top-0 left-0 right-0 sticky bg-background/75 backdrop-blur">
@@ -8,6 +10,10 @@
       <div class="text-5xl mt-16 font-bold mb-9 items-center max-w-xs">
         Sign up
       </div>
+
+      <LoginLink to="/api/login" external> Sign in </LoginLink>
+
+      <RegisterLink to="/api/register" external> Sign up </RegisterLink>
 
       <div class="w-full flex flex-col items-center max-w-sm mb-20">
         <div class="flex w-full flex-col">
@@ -83,5 +89,3 @@
     </div>
   </div>
 </template>
-
-<script setup lang="ts"></script>
