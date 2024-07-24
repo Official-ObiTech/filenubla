@@ -1,8 +1,25 @@
+<script setup lang="ts">
+definePageMeta({
+  // middleware: function (to, from) {
+  //   const auth = useAuth();
+  //   console.log({ auth });
+  //   if (!auth.loggedIn) {
+  //     return navigateTo("/");
+  //   }
+  // },
+});
+
+
+const route = useRoute();
+const router = useRouter();
+</script>
+
+
 <template>
-  <div class="w-full">
+  <div class="w-full relative">
     <div
       id="Header"
-      class="flex items-center mx-auto px-4 justify-between gap-4 h-[4rem] lg:px-8 max-w-7xl sm:px-8 bg-slate-50"
+      class="sticky top-0 z-10 flex items-center mx-auto px-4 justify-between gap-4 h-[4rem] lg:px-8  sm:px-8 bg-slate-50 bg-blur-3xl"
     >
       <div class="flex items-center lg:flex-1 gap-1.5">
         <NuxtLink
@@ -13,22 +30,12 @@
         </NuxtLink>
       </div>
     </div>
-    <div class="">
-      <UButton
-        icon="i-heroicons-solid-plus-sm"
-        size="sm"
-        color=""
-        variant="solid"
-        label="Button"
-        :trailing="false"
-      />
-    </div>
     <div class="flex grid-rows-2 grid-flow-col gap-4 bg-slate-50">
-      <div class="w-1/6">
-        <UVerticalNavigation :links="links" />
-      </div>
+      <dashborad-side-bar class="hidden lg:block rounded-r-2xl relative w-full lg:w-2/12" />
 
-      <div class="bg-white shadow rounded w-4/5 h-screen scroll-y gap-y-4">
+
+
+      <div class="bg-white shadow rounded w-10/12 mx-auto h-screen scroll-y gap-y-4">
         <div class="text-bold text-xl text-center">Welcome to Arsenal</div>
         <div class="items-center justify-center flex text-center">
           <UInput
@@ -41,37 +48,9 @@
             :ui="{ rounded: 'rounded-full' }"
           />
         </div>
-        <NuxtLink to="/api/logout" external> Sign out </NuxtLink>
+        <!-- <NuxtLink to="/api/logout" external> Sign out </NuxtLink> -->
       </div>
     </div>
   </div>
 </template>
 
-<script setup lang="ts">
-definePageMeta({
-  middleware: function (to, from) {
-    const auth = useAuth();
-    console.log({ auth });
-    if (!auth.loggedIn) {
-      return navigateTo("/");
-    }
-  },
-});
-const links = [
-  {
-    label: "Home",
-    icon: "i-heroicons-home",
-    to: "",
-  },
-  {
-    label: "My Storage",
-    icon: "i-heroicons-chart-bar",
-    to: ``,
-  },
-  {
-    label: "Computers",
-    icon: "i-heroicons-command-line",
-    to: "",
-  },
-];
-</script>
