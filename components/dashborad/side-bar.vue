@@ -1,6 +1,6 @@
 <script lang="ts" setup>
 
-const routes = [
+const routes =  [
 	{
 		label: "Home",
 		to: "/dashboard",
@@ -13,14 +13,14 @@ const routes = [
 		icon: "i-material-symbols-light-hard-drive-2-outline",
 		links: [
 			{
-				label: "Purchase Orders",
-				to: "/dashboard/procurement/orders",
+				label: "Camera",
+				to: "#",
 				// root: "dashboard/procurement",
 				icon: "i-material-symbols-light-folder-open-outline",
 			},
 			{
-				label: "Invoices",
-				to: "/dashboard/procurement/invoice",
+				label: "Photos",
+				to: "#",
 				// root: "dashboard/procurement",
 				icon: "i-material-symbols-light-folder-open-outline",
 			},
