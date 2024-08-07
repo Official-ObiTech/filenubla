@@ -1,7 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  modules: ["@nuxt/ui", "@nuxtjs/kinde"],
+  modules: ["@nuxt/ui", "@nuxtjs/kinde", "@pinia/nuxt","@pinia-plugin-persistedstate/nuxt"],
   postcss: {
     plugins: {
       tailwindcss: {},
@@ -21,4 +21,8 @@ export default defineNuxtConfig({
   },
 
   css: ["~/assets/main.css"],
+  pinia: {
+    storesDirs: ["./stores/**"],
+  },
+  
 });
