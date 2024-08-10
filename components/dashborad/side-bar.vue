@@ -91,36 +91,10 @@ const routes =  [
 </script>
 
 <template>
-	<div class="fixed z-1 top-0 left-0 h-full w-[270px] bg-[#A2A1A80D]  ">
-		<UButton
-				icon="i-material-symbols-add"
-				class="shadow-lg p-4 my-4 mx-2 text-gray-700 dark:text-white font-semibold text-sm rounded-2xl"
-				label="New"
-				color="white"
-				:trailing="false"
-			/>
-		<div class="flex flex-col lg:items-center text-center ">
-			
-
-			<div class="w-full space-y ">
-				<left-nav-menu :links="routes"></left-nav-menu>
-
-				<!-- <li
-					v-for="(lnk, i) in permittedMenus"
-					:class="`cursor-pointer list-none flex items-center gap-2 ${
-						(route.path == lnk.path && lnk.path === '/dashboard')
-							? 'font-bold text-white border-l-primary bg-teal-500'
-							: ''
-					} p-4 border-l-transparent border-l-2  text-sm pl-10`"
-					:key="i"
-					@click="navigate(lnk.path)"
-				>
-					<UIcon class="text-lg" :name="lnk.icon" />
-					{{ lnk.name }}
-				</li> -->
-			</div>
-		</div>
+	<div class=" ">
+		<left-nav-menu :links="routes"></left-nav-menu>
 	</div>
+
 </template>
 
 

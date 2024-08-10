@@ -60,6 +60,7 @@
           </div>
 
           <UButton
+            class="hidden lg:block"
             v-if="!$auth.loggedIn"
             icon="i-heroicons-arrow-right-on-rectangle-20-solid"
             size="lg"
