@@ -16,38 +16,31 @@ const router = useRouter();
 
 
 <template>
-  <div class="h-screen bg-slate-100/50 container mx-auto lg:px-4 ">
+  <div class="h-screen bg-slate-100/50 container mx-auto lg:px-4 dark:bg-slate-800">
     <div class="top-0 left-0 right-0 sticky bg-background/75 backdrop-blur z-50 ">
       <dashborad-topnavbar />
     </div>      
 
-     
-  
-
     <div class="lg:grid grid-cols-6 grid-flow-col gap-4  px-3 md:px-5">
       <div id="first-div" class=" "  >
-        <UButton
-            icon="i-material-symbols-add"
-            class="shadow-lg p-4 my-4 mx-2 text-gray-700 dark:text-white font-semibold text-sm rounded-2xl hidden lg:block"
-            label="New"
-            color="white"
-            :trailing="false"
-        />
+        
+        <add-button />
+      
           <div class="no-scrollbar overflow-y-auto h-96 lg:block hidden ">
             <dashborad-side-bar  />
           </div>
       </div>
 
-      <div id="second-div " class="col-span-5 mt-2 rounded-xl p-6 lg:pb-0 pb-6  ">
+      <div id="second-div " class="col-span-5 mt-2 rounded-xl  lg:pb-0 pb-6  ">
         <UCard class=" no-scrollbar overflow-y-auto" >
 
           <template #header >
-            <div class="h-20 ">
-              <h1 class="md:text-sm text-3xl font-light">Welcome to FileNubla </h1>
+            <div class="h-16 ">
+              <h1 class="text-lg lg:text-3xl font-light">Welcome to FileNubla </h1>
             </div>
           </template>
 
-          <div class="lg:h-72 ">
+          <div class="lg:h-80  h-64">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita ipsam ea dolorum.
               Rerum quo dignissimos accusamus sed eveniet, eligendi earum alias fugiat temporibus 
               autem magni perspiciatis sapiente provident, eum possimus? Dolore numquam excepturi 
