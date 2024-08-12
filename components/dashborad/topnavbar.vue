@@ -16,10 +16,12 @@
           </NuxtLink>
         </div>
 
-        <search-field />
         
            
         <div class="flex items-center justify-end lg:flex-1 gap-1">
+          <div class="lg:absolute lg:left-72">
+            <search-field />
+          </div>
 
           <div class="relative inline-flex">
             <DashboradColorModeSwitch />
