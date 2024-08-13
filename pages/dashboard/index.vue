@@ -32,96 +32,175 @@ const router = useRouter();
       </div>
 
       <div id="second-div " class="col-span-5 mt-2 rounded-xl  lg:pb-0 pb-6  ">
-        <UCard class=" no-scrollbar overflow-y-auto" >
+        <UCard class=" no-scrollbar overflow-y-auto " :ui="{ header : {padding: 'pb-2'}}" >
 
           <template #header >
             <div class="h-16 ">
               <h1 class="text-lg lg:text-3xl font-light">Welcome to FileNubla </h1>
             </div>
+
+            <div class="hidden lg:grid grid-cols-5 gap-6 px-4 ">
+              <p class="text-sm font-bold ">Image</p>
+              <p class="text-sm font-bold ">Name</p>
+              <p class="text-sm font-bold ">Reason Suggested</p>
+              <p class="text-sm font-bold justify-center flex">Owner</p>
+              <p class="text-sm font-bold justify-center flex">Action</p>
+            </div>
+
+            <div class="lg:hidden grid grid-cols-2 gap-6 px-6 ">
+              <p class="text-sm font-bold justify-center ">Suggested</p>
+              <p class="text-sm font-bold justify-end flex "> Activity</p>
+            </div>
+
           </template>
 
-          <div class="lg:h-80  h-64">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita ipsam ea dolorum.
-              Rerum quo dignissimos accusamus sed eveniet, eligendi earum alias fugiat temporibus 
-              autem magni perspiciatis sapiente provident, eum possimus? Dolore numquam excepturi 
-              animi aspernatur praesentium quisquam earum maxime ducimus repellendus cum! Placeat 
-              porro natus, maiores excepturi iure omnis quod error magni. Quas in a consequuntur rerum
-              nihil. Magni iste laboriosam porro repudiandae earum doloribus natus ab cumque dicta quo
-              cum consequatur ullam ratione facere assumenda tempora odio voluptate aliquid, quas autem 
-              culpa aspernatur iure ducimus accusantium! Aut et, nesciunt illo quas, amet eaque minus eum
-              , ex beatae eveniet saepe?
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita ipsam ea dolorum.
-              Rerum quo dignissimos accusamus sed eveniet, eligendi earum alias fugiat temporibus 
-              autem magni perspiciatis sapiente provident, eum possimus? Dolore numquam excepturi 
-              animi aspernatur praesentium quisquam earum maxime ducimus repellendus cum! Placeat 
-              porro natus, maiores excepturi iure omnis quod error magni. Quas in a consequuntur rerum
-              nihil. Magni iste laboriosam porro repudiandae earum doloribus natus ab cumque dicta quo
-              cum consequatur ullam ratione facere assumenda tempora odio voluptate aliquid, quas autem 
-              culpa aspernatur iure ducimus accusantium! Aut et, nesciunt illo quas, amet eaque minus eum
-              , ex beatae eveniet saepe?
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita ipsam ea dolorum.
-              Rerum quo dignissimos accusamus sed eveniet, eligendi earum alias fugiat temporibus 
-              autem magni perspiciatis sapiente provident, eum possimus? Dolore numquam excepturi 
-              animi aspernatur praesentium quisquam earum maxime ducimus repellendus cum! Placeat 
-              porro natus, maiores excepturi iure omnis quod error magni. Quas in a consequuntur rerum
-              nihil. Magni iste laboriosam porro repudiandae earum doloribus natus ab cumque dicta quo
-              cum consequatur ullam ratione facere assumenda tempora odio voluptate aliquid, quas autem 
-              culpa aspernatur iure ducimus accusantium! Aut et, nesciunt illo quas, amet eaque minus eum
-              , ex beatae eveniet saepe?
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita ipsam ea dolorum.
-              Rerum quo dignissimos accusamus sed eveniet, eligendi earum alias fugiat temporibus 
-              autem magni perspiciatis sapiente provident, eum possimus? Dolore numquam excepturi 
-              animi aspernatur praesentium quisquam earum maxime ducimus repellendus cum! Placeat 
-              porro natus, maiores excepturi iure omnis quod error magni. Quas in a consequuntur rerum
-              nihil. Magni iste laboriosam porro repudiandae earum doloribus natus ab cumque dicta quo
-              cum consequatur ullam ratione facere assumenda tempora odio voluptate aliquid, quas autem 
-              culpa aspernatur iure ducimus accusantium! Aut et, nesciunt illo quas, amet eaque minus eum
-              , ex beatae eveniet saepe?
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita ipsam ea dolorum.
-              Rerum quo dignissimos accusamus sed eveniet, eligendi earum alias fugiat temporibus 
-              autem magni perspiciatis sapiente provident, eum possimus? Dolore numquam excepturi 
-              animi aspernatur praesentium quisquam earum maxime ducimus repellendus cum! Placeat 
-              porro natus, maiores excepturi iure omnis quod error magni. Quas in a consequuntur rerum
-              nihil. Magni iste laboriosam porro repudiandae earum doloribus natus ab cumque dicta quo
-              cum consequatur ullam ratione facere assumenda tempora odio voluptate aliquid, quas autem 
-              culpa aspernatur iure ducimus accusantium! Aut et, nesciunt illo quas, amet eaque minus eum
-              , ex beatae eveniet saepe?
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita ipsam ea dolorum.
-              Rerum quo dignissimos accusamus sed eveniet, eligendi earum alias fugiat temporibus 
-              autem magni perspiciatis sapiente provident, eum possimus? Dolore numquam excepturi 
-              animi aspernatur praesentium quisquam earum maxime ducimus repellendus cum! Placeat 
-              porro natus, maiores excepturi iure omnis quod error magni. Quas in a consequuntur rerum
-              nihil. Magni iste laboriosam porro repudiandae earum doloribus natus ab cumque dicta quo
-              cum consequatur ullam ratione facere assumenda tempora odio voluptate aliquid, quas autem 
-              culpa aspernatur iure ducimus accusantium! Aut et, nesciunt illo quas, amet eaque minus eum
-              , ex beatae eveniet saepe?
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita ipsam ea dolorum.
-              Rerum quo dignissimos accusamus sed eveniet, eligendi earum alias fugiat temporibus 
-              autem magni perspiciatis sapiente provident, eum possimus? Dolore numquam excepturi 
-              animi aspernatur praesentium quisquam earum maxime ducimus repellendus cum! Placeat 
-              porro natus, maiores excepturi iure omnis quod error magni. Quas in a consequuntur rerum
-              nihil. Magni iste laboriosam porro repudiandae earum doloribus natus ab cumque dicta quo
-              cum consequatur ullam ratione facere assumenda tempora odio voluptate aliquid, quas autem 
-              culpa aspernatur iure ducimus accusantium! Aut et, nesciunt illo quas, amet eaque minus eum
-              , ex beatae eveniet saepe?
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita ipsam ea dolorum.
-              Rerum quo dignissimos accusamus sed eveniet, eligendi earum alias fugiat temporibus 
-              autem magni perspiciatis sapiente provident, eum possimus? Dolore numquam excepturi 
-              animi aspernatur praesentium quisquam earum maxime ducimus repellendus cum! Placeat 
-              porro natus, maiores excepturi iure omnis quod error magni. Quas in a consequuntur rerum
-              nihil. Magni iste laboriosam porro repudiandae earum doloribus natus ab cumque dicta quo
-              cum consequatur ullam ratione facere assumenda tempora odio voluptate aliquid, quas autem 
-              culpa aspernatur iure ducimus accusantium! Aut et, nesciunt illo quas, amet eaque minus eum
-              , ex beatae eveniet saepe?
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita ipsam ea dolorum.
-              Rerum quo dignissimos accusamus sed eveniet, eligendi earum alias fugiat temporibus 
-              autem magni perspiciatis sapiente provident, eum possimus? Dolore numquam excepturi 
-              animi aspernatur praesentium quisquam earum maxime ducimus repellendus cum! Placeat 
-              porro natus, maiores excepturi iure omnis quod error magni. Quas in a consequuntur rerum
-              nihil. Magni iste laboriosam porro repudiandae earum doloribus natus ab cumque dicta quo
-              cum consequatur ullam ratione facere assumenda tempora odio voluptate aliquid, quas autem 
-              culpa aspernatur iure ducimus accusantium! Aut et, nesciunt illo quas, amet eaque minus eum
-              , ex beatae eveniet saepe?
+          <div class="lg:h-80  h-64 text-sm ">
+
+            <div class="lg:hidden grid grid-cols-4 px-4 py-2 my-2 border border-slate-800/50 dark:border-slate-100/50 rounded-lg shadow-md ">
+              <img src="../../assets/cloud.png" alt="" class="size-8" />
+              <div class="col-span-2">
+                <p class="">IMG_753.JPG</p>
+                <p class="text-xs">You opened Jun 30, 2023</p>
+              </div>
+                <p class="justify-end flex items-center">Action</p>
+            </div>
+            
+            <div class="lg:hidden grid grid-cols-4 px-4 py-2 my-2 border border-slate-800/50 dark:border-slate-100/50 rounded-lg shadow-md ">
+              <img src="../../assets/cloud.png" alt="" class="size-8" />
+              <div class="col-span-2">
+                <p class="">IMG_753.JPG</p>
+                <p class="text-xs">You opened Jun 30, 2023</p>
+              </div>
+                <p class="justify-end flex items-center">Action</p>
+            </div>
+
+            <div class="lg:hidden grid grid-cols-4 px-4 py-2 my-2 border border-slate-800/50 dark:border-slate-100/50 rounded-lg shadow-md ">
+              <img src="../../assets/cloud.png" alt="" class="size-8" />
+              <div class="col-span-2">
+                <p class="">IMG_753.JPG</p>
+                <p class="text-xs">You opened Jun 30, 2023</p>
+              </div>
+                <p class="justify-end flex items-center">Action</p>
+            </div>
+
+            <div class="lg:hidden grid grid-cols-4 px-4 py-2 my-2 border border-slate-800/50 dark:border-slate-100/50 rounded-lg shadow-md ">
+              <img src="../../assets/cloud.png" alt="" class="size-8" />
+              <div class="col-span-2">
+                <p class="">IMG_753.JPG</p>
+                <p class="text-xs">You opened Jun 30, 2023</p>
+              </div>
+                <p class="justify-end flex items-center">Action</p>
+            </div>
+
+            <div class="lg:hidden grid grid-cols-4 px-4 py-2 my-2 border border-slate-800/50 dark:border-slate-100/50 rounded-lg shadow-md ">
+              <img src="../../assets/cloud.png" alt="" class="size-8" />
+              <div class="col-span-2">
+                <p class="">IMG_753.JPG</p>
+                <p class="text-xs">You opened Jun 30, 2023</p>
+              </div>
+                <p class="justify-end flex items-center">Action</p>
+            </div>
+
+            <div class="lg:hidden grid grid-cols-4 px-4 py-2 my-2 border border-slate-800/50 dark:border-slate-100/50 rounded-lg shadow-md ">
+              <img src="../../assets/cloud.png" alt="" class="size-8" />
+              <div class="col-span-2">
+                <p class="">IMG_753.JPG</p>
+                <p class="text-xs">You opened Jun 30, 2023</p>
+              </div>
+                <p class="justify-end flex items-center">Action</p>
+            </div>
+
+            <div class="hidden lg:grid grid-cols-5 gap-6  px-4 py-2 my-2 border border-slate-800/50 dark:border-slate-100/50 rounded-lg shadow-md m-auto">
+              <img src="../../assets/cloud.png" alt="" class="size-8" />
+              <p class="">IMG_753.JPG</p>
+              <p class="">You opened Jun 30, 2023</p>
+              <p class="justify-center flex items-center gap-2">
+                <UAvatar icon="i-heroicons-photo" size="sm" />me1
+              </p>
+              <p class="justify-center flex items-center">Action</p>
+            </div>
+
+
+
+            <div class="hidden lg:grid grid-cols-5 gap-6  px-4 py-2 my-2 border border-slate-800/50 dark:border-slate-100/50 rounded-lg shadow-md ">
+              <img src="../../assets/cloud.png" alt="" class="size-8" />
+              <p class="">GSIB628.MP4</p>
+              <p class="">You opened Jun 19, 2023</p>
+              <p class="justify-center flex items-center gap-2">
+                <UAvatar icon="i-heroicons-photo" size="sm" />me
+              </p>
+              <p class="justify-center flex items-center">Action</p>
+            </div>
+
+            <div class="hidden lg:grid grid-cols-5 gap-6  px-4 py-2 my-2 border border-slate-800/50 dark:border-slate-100/50 rounded-lg shadow-md ">
+              <img src="../../assets/cloud.png" alt="" class="size-8" />
+              <p class="">CVXW4913.MP$</p>
+              <p class="">You created Jun 18, 2023</p>
+              <p class="justify-center flex items-center gap-2">
+                <UAvatar icon="i-heroicons-photo" size="sm" />me
+              </p>
+              <p class="justify-center flex items-center">Action</p>
+            </div>
+
+            <div class="hidden lg:grid grid-cols-5 gap-6  px-4 py-2 my-2 border border-slate-800/50 dark:border-slate-100/50 rounded-lg shadow-md ">
+              <img src="../../assets/cloud.png" alt="" class="size-8" />
+              <p class="">IMG_1304.HEIC</p>
+              <p class="">You created Jun 18, 2023</p>
+              <p class="justify-center flex items-center gap-2">
+                <UAvatar icon="i-heroicons-photo" size="sm" />me
+              </p>
+              <p class="justify-center flex items-center">Action</p>
+            </div>
+
+            <div class="hidden lg:grid grid-cols-5 gap-6  px-4 py-2 my-2 border border-slate-800/50 dark:border-slate-100/50 rounded-lg shadow-md ">
+              <img src="../../assets/cloud.png" alt="" class="size-8" />
+              <p class="">IMG_3040.HEIC</p>
+              <p class="">You created Jun 18, 2023</p>
+              <p class="justify-center flex items-center gap-2">
+                <UAvatar icon="i-heroicons-photo" size="sm" />me
+              </p>
+              <p class="justify-center flex items-center">Action</p>
+            </div>           
+            <div class="hidden lg:grid grid-cols-5 gap-6  px-4 py-2 my-2 border border-slate-800/50 dark:border-slate-100/50 rounded-lg shadow-md ">
+              <img src="../../assets/cloud.png" alt="" class="size-8" />
+              <p class="">IMG_1304.HEIC</p>
+              <p class="">You created Jun 18, 2023</p>
+              <p class="justify-center flex items-center gap-2">
+                <UAvatar icon="i-heroicons-photo" size="sm" />me
+              </p>
+              <p class="justify-center flex items-center">Action</p>
+            </div>
+
+            <div class="hidden lg:grid grid-cols-5 gap-6  px-4 py-2 my-2 border border-slate-800/50 dark:border-slate-100/50 rounded-lg shadow-md ">
+              <img src="../../assets/cloud.png" alt="" class="size-8" />
+              <p class="">IMG_3040.HEIC</p>
+              <p class="">You created Jun 18, 2023</p>
+              <p class="justify-center flex items-center gap-2">
+                <UAvatar icon="i-heroicons-photo" size="sm" />me
+              </p>
+              <p class="justify-center flex items-center">Action</p>
+            </div>   
+
+            <div class="hidden lg:grid grid-cols-5 gap-6  px-4 py-2 my-2 border border-slate-800/50 dark:border-slate-100/50 rounded-lg shadow-md ">
+              <img src="../../assets/cloud.png" alt="" class="size-8" />
+              <p class="">IMG_1304.HEIC</p>
+              <p class="">You created Jun 18, 2023</p>
+              <p class="justify-center flex items-center gap-2">
+                <UAvatar icon="i-heroicons-photo" size="sm" />me
+              </p>
+              <p class="justify-center flex items-center">Action</p>
+            </div>
+
+            <div class="hidden lg:grid grid-cols-5 gap-6  px-4 py-2 my-2 border border-slate-800/50 dark:border-slate-100/50 rounded-lg shadow-md ">
+              <img src="../../assets/cloud.png" alt="" class="size-8" />
+              <p class="">IMG_3040.HEIC</p>
+              <p class="">You created Jun 18, 2023</p>
+              <p class="justify-center flex items-center gap-2">
+                <UAvatar icon="i-heroicons-photo" size="sm" />me
+              </p>
+              <p class="justify-center flex items-center">Action</p>
+            </div>           
+          
           </div>
 
         </UCard>
