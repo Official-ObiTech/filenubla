@@ -11,10 +11,6 @@
         Sign up
       </div>
 
-      <LoginLink to="/api/login" external> Sign in </LoginLink>
-
-      <RegisterLink to="/api/register" external> Sign up </RegisterLink>
-
       <div class="w-full flex flex-col items-center max-w-sm mb-20">
         <div class="flex w-full flex-col">
           <div class="space-y-4">

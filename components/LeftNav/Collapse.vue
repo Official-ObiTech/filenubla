@@ -46,7 +46,7 @@ function toggle() {
     <!-- <client-only> -->
     <div
       ref="content"
-      class="mt-2 transition-[max-height] overflow-hidden collapse__content pl-4"
+      class="mt-2 transition-[max-height] overflow-hidden collapse__content pl-1.5"
     >
       <slot> This is the content </slot>
     </div>
