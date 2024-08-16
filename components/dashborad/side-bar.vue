@@ -12,6 +12,10 @@ const routes =  [
 		icon: "i-material-symbols-light-hard-drive-2-outline",
 		links: [
 			{
+				to: "/dashboard/my-drive",
+				icon: "i-material-symbols-light-folder-open-outline",
+			},
+			{
 				label: "Camera",
 				to: "/dashboard/my-drive/camera",
 				icon: "i-material-symbols-light-folder-open-outline",
@@ -44,7 +48,7 @@ const routes =  [
 
 	{
 		label: "Shared with me",
-		to: "#",
+		to: "/dashboard/shared",
 		icon: "i-material-symbols-light-share-reviews-outline",
 	},
 	{
@@ -54,18 +58,18 @@ const routes =  [
 	},
 	{
 		label: "Starred",
-		to: "#",
+		to: "/dashboard/starred",
 		icon: "i-solar-star-fall-broken",
 	},
 	{
 		label: "Spam",
-		to: "#",
+		to: "/dashboard/spam",
 		icon: "i-pajamas-spam",
 	},
 
 	{
 		label: "Trash",
-		to: "#",
+		to: "/dashboard/trash",
 		icon: "i-material-symbols-delete-outline",
 	},
 	{
