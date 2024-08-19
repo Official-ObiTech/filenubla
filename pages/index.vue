@@ -1,7 +1,7 @@
 <template>
-  <div class="">
-    <div class="top-0 left-0 right-0 sticky bg-background/75 backdrop-blur ">
-      <dashborad-navTop />
+  <div class="container bg-slate-100/50 dark:bg-slate-800">
+    <div class="top-0 left-0 right-0 sticky bg-background/75 backdrop-blur z-50 ">
+      <onboarding-navTop />
     </div>
 
 
@@ -17,12 +17,12 @@
     </div>
 
     <div
-      class="mx-auto px-4 sm:px-6 lg:px-8 gap-16 max-w-7xl sm:gap-y-24 flex flex-col py-20 sm:py-32 !pt-0"
+      class="mx-auto px-4 sm:px-6 lg:px-8 gap-16 max-w-7xl sm:gap-y-24 flex flex-col py-20 mt-4 sm:py-32 !pt-0"
     >
       <dashborad-supporter />
     </div>
 
-    <div class="border-t border-gray-200 dark:border-gray-800 left-0 right-0 bottom-0">
+    <div class="border-t border-gray-200 dark:border-gray-800 left-0 right-0 bottom-0 ">
       <dashborad-footer />
     </div>
   </div>

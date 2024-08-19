@@ -29,7 +29,9 @@
           class="disabled:opacity-75 flex-shrink-0 font-medium rounded-md text-base gap-x-2.5 px-3.5 py-2.5 shadow-sm text-white dark:text-gray-900 bg-primary dark:bg-primary inline-flex items-center"
           variant="solid"
         >
-          <RegisterLink to="/api/register" external>Get Started</RegisterLink>
+            <NuxtLink to="/dashboard">
+                  Get Started
+            </NuxtLink>
         </UButton>
 
         <UButton

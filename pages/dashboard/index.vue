@@ -16,39 +16,37 @@ const router = useRouter();
 
 
 <template>
-  <div class="w-full relative bg-slate-50 h-screen">
-    <div
-      id="Header"
-      class="sticky top-0 z-10 flex items-center mx-auto px-4 justify-between gap-4 h-[4rem] lg:px-8  sm:px-8 bg-slate-50 bg-blur-3xl"
-    >
-      <div class="flex items-center lg:flex-1 gap-1.5">
-        <NuxtLink
-          class="flex font-bold text-xl items-end dark:text-white text-gray-900 cursor-pointer"
-          to="/"
-        >
-          <span> <span class="text-primary">File</span>Nubla </span>
-        </NuxtLink>
-      </div>
-    </div>
-    <div class="flex grid-rows-2 grid-flow-col gap-4 bg-slate-50 relative">
-      <dashborad-side-bar class="hidden lg:block rounded-r-2xl relative w-full lg:w-2/12" />
+  <div class="h-screen bg-slate-100/50 container mx-auto lg:px-4 dark:bg-slate-800">
+    <div class="top-0 left-0 right-0 sticky bg-background/75 backdrop-blur z-50 ">
+      <dashborad-topnavbar />
+    </div>   
+      <div class="lg:grid grid-cols-6 grid-flow-col gap-4  px-3 md:px-5">
+        <div id="first-div" class=" "  >
+            
+            <add-button />
+          
+              <div class="no-scrollbar overflow-y-auto h-96 lg:block hidden ">
+                <dashborad-side-bar  />
+              </div>
+          </div> 
 
-      <div class="bg-white shadow rounded w-10/12  overflow-y-scroll gap-y-4 ">
-        <div class="text-xl text-center py-4">Welcome to Arsenal</div>
-        <div class="items-center justify-center flex text-center">
-          <UInput
-            icon="i-heroicons-magnifying-glass-20-solid"
-            size="md"
-            color="gray"
-            :trailing="false"
-            placeholder="Search..."
-            class="w-3/5"
-            :ui="{ rounded: 'rounded-full' }"
-          />
+        <div id="second-div " class="col-span-5 mt-2 rounded-xl  lg:pb-0 pb-6  ">       
+          <nuxt-page />
         </div>
-      </div>
-        <!-- <NuxtLink to="/api/logout" external> Sign out </NuxtLink> -->
-  </div>
-</div>
+    </div>
+  </div> 
 </template>
+
+<style>
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+      display: none;
+  }
+
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .no-scrollbar {
+      -ms-overflow-style: none;  /* IE and Edge */
+      scrollbar-width: none;  /* Firefox */
+  }
+</style>
 
