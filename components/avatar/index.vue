@@ -25,7 +25,7 @@
 </script>
 
 <template>
-	<UDropdown :items="items" :ui="{ item: { disabled: 'cursor-text select-text' } }" :popper="{ placement: 'bottom-start' }">
+	<UDropdown :items="items" :ui="{ item: {icon: {active: 'bg-primary dark:bg-primary dark:text-white text-white'}, disabled: 'cursor-text select-text', padding: '0px', active: 'bg-primary dark:bg-primary dark:text-white text-white'} }" :popper="{ placement: 'bottom-start' } ">
         <UAvatar src="https://avatars.githubusercontent.com/u/739984?v=4" />
 
         <template #account="{ item }">
@@ -45,8 +45,8 @@
         <UIcon :name="item.icon" class="flex-shrink-0 h-4 w-4 text-gray-400 dark:text-gray-500 ms-auto" />
         </template>
 
-        <template #signout="{ item}" class="bg-primary">
-            <div class="bg-primary w-full h-full m-0" >{{ item.label }}</div>
+        <template #signout="{ item}" >
+            <div >{{ item.label }}</div>
         </template>
 
 
