@@ -1,5 +1,44 @@
+<script setup lang="ts">
+import { DoughnutChart, LineChart, BarChart, PieChart } from "vue-chart-3";
+import { Chart, registerables } from "chart.js";
+
+Chart.register(...registerables);
+
+
+
+const testData = {
+	labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+	datasets: [
+		{
+			data: [200, 300, 100],
+			backgroundColor: ["#93EBF3"],
+		},
+		{
+			data: [200, 300, 100],
+			backgroundColor: ["#F7DF89"],
+		},
+	],
+};
+
+const PieConfig = {
+	datasets: [{
+    label: 'My First Dataset',
+    data: [200, 50, 100, 150],
+    backgroundColor: [
+      'rgb(255, 99, 132)',
+      'rgb(54, 162, 235)',
+      'rgb(255, 205, 86)',
+      'rgb(255, 20, 186)'
+    ],
+    hoverOffset: 4
+  }]
+};
+
+
+</script>
+
 <template>
-    <div>       
+   <div>       
         
         <UCard class=" " :ui="{ header : {padding: 'pb-2'}}" >
 
@@ -660,7 +699,7 @@
                 <div class="grid grid-cols-3 gap-4">
 
                     <div class="col-span-2">
-                        <UCard class="h-60 no-scrollbar overflow-y-auto" >
+                        <UCard class="h-56" >
                             <template #header >
                                 <div class="h-8">
                                     <h1 class="text-sm font-semibold " >Recent Actions</h1>
@@ -676,7 +715,7 @@
                                 </div>
                             </template>
 
-                            <div>
+                            <div class="h-48">
                                 <div class="hidden lg:grid grid-cols-2 text-xs items-center px-6 py-1 my-1 border border-slate-800/50 dark:border-slate-100/50 rounded-md shadow-md ">
                                     <div class="flex items-center gap-4">
                                     <img src="../../../assets/cloud.png" alt="" class="size-8" />
@@ -721,64 +760,21 @@
                                     
                                 </div> 
 
-                                <div class="hidden lg:grid grid-cols-2 text-xs items-center px-6 py-1 my-1 border border-slate-800/50 dark:border-slate-100/50 rounded-md shadow-md ">
-                                    <div class="flex items-center gap-4">
-                                    <img src="../../../assets/cloud.png" alt="" class="size-8" />
-                                    <p class="">IMG_3040.HEIC</p>
-                                    </div>
-                                    <div class="grid grid-cols-5 items-center">
-                                        <p class="col-span-3">You created Jun 18, 2023</p>
-                                        <p class="justify-end flex items-center gap-2">
-                                        <UAvatar icon="i-heroicons-photo" size="xs" />me
-                                        </p>
-                                        <p class="justify-end flex items-center">
-                                            <UButton
-                                            icon="i-carbon-overflow-menu-vertical"
-                                            size="sm"
-                                            square
-                                            variant="ghost"
-                                            />
-                                        </p>
-                                    </div>
-                                    
-                                </div> 
-
-                                <div class="hidden lg:grid grid-cols-2 text-xs items-center px-6 py-1 my-1 border border-slate-800/50 dark:border-slate-100/50 rounded-md shadow-md ">
-                                    <div class="flex items-center gap-4">
-                                    <img src="../../../assets/cloud.png" alt="" class="size-8" />
-                                    <p class="">IMG_3040.HEIC</p>
-                                    </div>
-                                    <div class="grid grid-cols-5 items-center">
-                                        <p class="col-span-3">You created Jun 18, 2023</p>
-                                        <p class="justify-end flex items-center gap-2">
-                                        <UAvatar icon="i-heroicons-photo" size="xs" />me
-                                        </p>
-                                        <p class="justify-end flex items-center">
-                                            <UButton
-                                            icon="i-carbon-overflow-menu-vertical"
-                                            size="sm"
-                                            square
-                                            variant="ghost"
-                                            />
-                                        </p>
-                                    </div>
-                                    
-                                </div> 
                             </div>
                         </UCard>
                     </div>
 
                     <div>
-                        <UCard class="">
-                            second card
+                        <UCard class="h-56">
+                            <PieChart :chart-data="PieConfig" :height="250"/>
                         </UCard>
                     </div>
                    
                 </div>
 
-                <div class="">
-                    <UCard class="">
-                        last card
+                <div >
+                    <UCard class="h-28">
+                      <BarChart :chartData="testData" :height="100"  />
                     </UCard>
                 </div>
 
@@ -788,9 +784,6 @@
   
 </template>
 
-<script setup lang="ts">
-
-</script>
 
 <style>
 

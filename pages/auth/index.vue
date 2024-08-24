@@ -58,6 +58,7 @@
                 type="submit"
                 class="py-2.5 mt-8 dark:text-white bg-primary dark:bg-primary"
                 icon="i-logos-mandrill"
+                to="/dashboard"
                 >Continue with Email</UButton
               >
             </UForm>

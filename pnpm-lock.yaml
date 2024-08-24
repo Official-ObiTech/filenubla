@@ -17,6 +17,9 @@ importers:
       '@pinia/nuxt':
         specifier: ^0.5.1
         version: 0.5.1(rollup@4.14.1)(typescript@5.4.4)(vue@3.4.21(typescript@5.4.4))
+      chart.js:
+        specifier: ^4.4.4
+        version: 4.4.4
       nuxt:
         specifier: ^3.11.1
         version: 3.11.2(@parcel/watcher@2.4.1)(@types/node@20.12.6)(@unocss/reset@0.59.0)(encoding@0.1.13)(floating-vue@5.2.2(@nuxt/kit@3.11.2(rollup@4.14.1))(vue@3.4.21(typescript@5.4.4)))(fuse.js@6.6.2)(ioredis@5.3.2)(jwt-decode@4.0.0)(rollup@4.14.1)(terser@5.30.3)(typescript@5.4.4)(unocss@0.59.0(postcss@8.4.38)(rollup@4.14.1)(vite@5.2.8(@types/node@20.12.6)(terser@5.30.3)))(vite@5.2.8(@types/node@20.12.6)(terser@5.30.3))
@@ -29,6 +32,9 @@ importers:
       vue:
         specifier: ^3.4.21
         version: 3.4.21(typescript@5.4.4)
+      vue-chart-3:
+        specifier: ^3.1.8
+        version: 3.1.8(chart.js@4.4.4)(vue@3.4.21(typescript@5.4.4))
       vue-router:
         specifier: ^4.3.0
         version: 4.3.0(vue@3.4.21(typescript@5.4.4))
@@ -503,6 +509,9 @@ packages:
   '@koa/router@12.0.1':
     resolution: {integrity: sha512-ribfPYfHb+Uw3b27Eiw6NPqjhIhTpVFzEWLwyc/1Xp+DCdwRRyIlAUODX+9bPARF6aQtUu1+/PHzdNvRzcs/+Q==}
     engines: {node: '>= 12'}
+
+  '@kurkle/color@0.3.2':
+    resolution: {integrity: sha512-fuscdXJ9G1qb7W8VdHi+IwRqij3lBkosAm4ydQtEmbY58OzHXqQhvlxqEkoz0yssNVn38bcpRWgA9PP+OGoisw==}
 
   '@kwsites/file-exists@1.1.1':
     resolution: {integrity: sha512-m9/5YGR18lIwxSFDwfE3oA7bWuq9kdau6ugN4H2rJeyhFQZcG9AgSHkQtSD15a8WvTgfz9aikZMrKPHvbpqFiw==}
@@ -1152,11 +1161,20 @@ packages:
   '@vue/reactivity@3.4.21':
     resolution: {integrity: sha512-UhenImdc0L0/4ahGCyEzc/pZNwVgcglGy9HVzJ1Bq2Mm9qXOpP8RyNTjookw/gOCUlXSEtuZ2fUg5nrHcoqJcw==}
 
+  '@vue/reactivity@3.4.38':
+    resolution: {integrity: sha512-4vl4wMMVniLsSYYeldAKzbk72+D3hUnkw9z8lDeJacTxAkXeDAP1uE9xr2+aKIN0ipOL8EG2GPouVTH6yF7Gnw==}
+
   '@vue/runtime-core@3.4.21':
     resolution: {integrity: sha512-pQthsuYzE1XcGZznTKn73G0s14eCJcjaLvp3/DKeYWoFacD9glJoqlNBxt3W2c5S40t6CCcpPf+jG01N3ULyrA==}
 
+  '@vue/runtime-core@3.4.38':
+    resolution: {integrity: sha512-21z3wA99EABtuf+O3IhdxP0iHgkBs1vuoCAsCKLVJPEjpVqvblwBnTj42vzHRlWDCyxu9ptDm7sI2ZMcWrQqlA==}
+
   '@vue/runtime-dom@3.4.21':
     resolution: {integrity: sha512-gvf+C9cFpevsQxbkRBS1NpU8CqxKw0ebqMvLwcGQrNpx6gqRDodqKqA+A2VZZpQ9RpK2f9yfg8VbW/EpdFUOJw==}
+
+  '@vue/runtime-dom@3.4.38':
+    resolution: {integrity: sha512-afZzmUreU7vKwKsV17H1NDThEEmdYI+GCAK/KY1U957Ig2NATPVjCROv61R19fjZNzMmiU03n79OMnXyJVN0UA==}
 
   '@vue/server-renderer@3.4.21':
     resolution: {integrity: sha512-aV1gXyKSN6Rz+6kZ6kr5+Ll14YzmIbeuWe7ryJl5muJ4uwSwY/aStXTixx76TwkZFJLm1aAlA/HSWEJ4EyiMkg==}
@@ -1165,6 +1183,9 @@ packages:
 
   '@vue/shared@3.4.21':
     resolution: {integrity: sha512-PuJe7vDIi6VYSinuEbUIQgMIRZGgM8e4R+G+/dQTk0X1NEdvgvvgv7m+rfmDH1gZzyA1OjjoWskvHlfRNfQf3g==}
+
+  '@vue/shared@3.4.38':
+    resolution: {integrity: sha512-q0xCiLkuWWQLzVrecPb0RMsNWyxICOjPrcrwxTUEHb1fsnvni4dcuyG7RT/Ie7VPTvnjzIaWzRMUBsrqNj/hhw==}
 
   '@vueuse/components@10.9.0':
     resolution: {integrity: sha512-BHQpA0yIi3y7zKa1gYD0FUzLLkcRTqVhP8smnvsCK6GFpd94Nziq1XVPD7YpFeho0k5BzbBiNZF7V/DpkJ967A==}
@@ -1452,6 +1473,10 @@ packages:
   chalk@5.3.0:
     resolution: {integrity: sha512-dLitG79d+GV1Nb/VYcCDFivJeK1hiukt9QjRNVOsUtTy1rR1YJsmpGGTZ3qJos+uw7WmWF4wUwBd9jxjocFC2w==}
     engines: {node: ^12.17.0 || ^14.13 || >=16.0.0}
+
+  chart.js@4.4.4:
+    resolution: {integrity: sha512-emICKGBABnxhMjUjlYRR12PmOXhJ2eJjEHL2/dZlWjxRAZT1D8xplLFq5M0tMQK8ja+wBS/tuVEJB5C6r7VxJA==}
+    engines: {pnpm: '>=8'}
 
   chokidar@3.6.0:
     resolution: {integrity: sha512-7VT13fmjotKpGipCW9JEQAusEPE+Ei8nl6/g4FBAmIm0GOOLMua9NDDo/DWp0ZAxCr3cPq5ZpBqmPAQgDda2Pw==}
@@ -2410,6 +2435,9 @@ packages:
   locate-path@6.0.0:
     resolution: {integrity: sha512-iPZK6eYjbxRu3uB4/WZ3EsEIMJFMqAoopl3R+zuq0UjcAm/MO6KCweDgPfP3elTztoKP3KtnVHxTn2NHBSDVUw==}
     engines: {node: '>=10'}
+
+  lodash-es@4.17.21:
+    resolution: {integrity: sha512-mKnC+QJ9pWVzv+C4/U3rRsHapFfHvQFoFB92e52xeyGMcX6/OlIl78je1u8vePzYZSkkogMPJ2yjxxsb89cxyw==}
 
   lodash.castarray@4.4.0:
     resolution: {integrity: sha512-aVx8ztPv7/2ULbArGJ2Y42bG1mEQ5mGjpdvrbJcJFU3TbYybe+QlLS4pst9zV52ymy2in1KpFPiZnAOATxD4+Q==}
@@ -3876,6 +3904,12 @@ packages:
   vue-bundle-renderer@2.0.0:
     resolution: {integrity: sha512-oYATTQyh8XVkUWe2kaKxhxKVuuzK2Qcehe+yr3bGiaQAhK3ry2kYE4FWOfL+KO3hVFwCdLmzDQTzYhTi9C+R2A==}
 
+  vue-chart-3@3.1.8:
+    resolution: {integrity: sha512-zX5ajjQi/PocEqLETlej3vp92q/tnI/Fvu2RVb++Kap8qOrXu6PXCpodi73BFrWzEGZIAnqoUxC3OIkRWD657g==}
+    peerDependencies:
+      chart.js: '=> ^3.1.0'
+      vue: '>= 3'
+
   vue-demi@0.14.7:
     resolution: {integrity: sha512-EOG8KXDQNwkJILkx/gPcoL/7vH+hORoBaKgGe+6W7VFMvCYJfmF2dGbvgDroVnI8LU7/kTu8mbjRZGBU1z9NTA==}
     engines: {node: '>=12'}
@@ -4454,6 +4488,8 @@ snapshots:
       path-to-regexp: 6.2.2
     transitivePeerDependencies:
       - supports-color
+
+  '@kurkle/color@0.3.2': {}
 
   '@kwsites/file-exists@1.1.1':
     dependencies:
@@ -5523,15 +5559,31 @@ snapshots:
     dependencies:
       '@vue/shared': 3.4.21
 
+  '@vue/reactivity@3.4.38':
+    dependencies:
+      '@vue/shared': 3.4.38
+
   '@vue/runtime-core@3.4.21':
     dependencies:
       '@vue/reactivity': 3.4.21
       '@vue/shared': 3.4.21
 
+  '@vue/runtime-core@3.4.38':
+    dependencies:
+      '@vue/reactivity': 3.4.38
+      '@vue/shared': 3.4.38
+
   '@vue/runtime-dom@3.4.21':
     dependencies:
       '@vue/runtime-core': 3.4.21
       '@vue/shared': 3.4.21
+      csstype: 3.1.3
+
+  '@vue/runtime-dom@3.4.38':
+    dependencies:
+      '@vue/reactivity': 3.4.38
+      '@vue/runtime-core': 3.4.38
+      '@vue/shared': 3.4.38
       csstype: 3.1.3
 
   '@vue/server-renderer@3.4.21(vue@3.4.21(typescript@5.4.4))':
@@ -5541,6 +5593,8 @@ snapshots:
       vue: 3.4.21(typescript@5.4.4)
 
   '@vue/shared@3.4.21': {}
+
+  '@vue/shared@3.4.38': {}
 
   '@vueuse/components@10.9.0(vue@3.4.21(typescript@5.4.4))':
     dependencies:
@@ -5847,6 +5901,10 @@ snapshots:
       supports-color: 7.2.0
 
   chalk@5.3.0: {}
+
+  chart.js@4.4.4:
+    dependencies:
+      '@kurkle/color': 0.3.2
 
   chokidar@3.6.0:
     dependencies:
@@ -6813,6 +6871,8 @@ snapshots:
   locate-path@6.0.0:
     dependencies:
       p-locate: 5.0.0
+
+  lodash-es@4.17.21: {}
 
   lodash.castarray@4.4.0: {}
 
@@ -8550,6 +8610,15 @@ snapshots:
   vue-bundle-renderer@2.0.0:
     dependencies:
       ufo: 1.5.3
+
+  vue-chart-3@3.1.8(chart.js@4.4.4)(vue@3.4.21(typescript@5.4.4)):
+    dependencies:
+      '@vue/runtime-core': 3.4.38
+      '@vue/runtime-dom': 3.4.38
+      chart.js: 4.4.4
+      csstype: 3.1.3
+      lodash-es: 4.17.21
+      vue: 3.4.21(typescript@5.4.4)
 
   vue-demi@0.14.7(vue@3.4.21(typescript@5.4.4)):
     dependencies:

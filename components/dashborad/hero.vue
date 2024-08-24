@@ -29,7 +29,7 @@
           class="disabled:opacity-75 flex-shrink-0 font-medium rounded-md text-base gap-x-2.5 px-3.5 py-2.5 shadow-sm text-white dark:text-gray-900 bg-primary dark:bg-primary inline-flex items-center"
           variant="solid"
         >
-            <NuxtLink to="/dashboard">
+            <NuxtLink to="/auth">
                   Get Started
             </NuxtLink>
         </UButton>
