@@ -7,18 +7,35 @@ Chart.register(...registerables);
 
 
 const testData = {
-	labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
-	datasets: [
-		{
-			data: [200, 300, 100],
-			backgroundColor: ["#93EBF3"],
-		},
-		{
-			data: [200, 300, 100],
-			backgroundColor: ["#F7DF89"],
-		},
-	],
-};
+    labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+    
+    datasets: [{
+        data: [65, 59, 80, 81, 56, 55, 40, 65, 59, 80, 81, 56, 55, 40, 65, 59, 80, 81, 56, 55, 40, 65, 59, 80, 81, 56, 55, 40],
+        backgroundColor: [
+        'rgba(255, 99, 132, 0.2)',
+        'rgba(255, 159, 64, 0.2)',
+        'rgba(255, 205, 86, 0.2)',
+        'rgba(75, 192, 192, 0.2)',
+        'rgba(54, 162, 235, 0.2)',
+        'rgba(153, 102, 255, 0.2)',
+        'rgba(201, 203, 207, 0.2)',
+        'rgba(255, 99, 132, 0.2)',
+        'rgba(255, 159, 64, 0.2)',
+        'rgba(255, 205, 86, 0.2)',
+        'rgba(75, 192, 192, 0.2)',
+        'rgba(54, 162, 235, 0.2)',
+        'rgba(153, 102, 255, 0.2)',
+        'rgba(201, 203, 207, 0.2)',
+        'rgba(255, 99, 132, 0.2)',
+        'rgba(255, 159, 64, 0.2)',
+        'rgba(255, 205, 86, 0.2)',
+        'rgba(75, 192, 192, 0.2)',
+        'rgba(54, 162, 235, 0.2)',
+        'rgba(153, 102, 255, 0.2)',
+        'rgba(201, 203, 207, 0.2)'
+        ],
+    }]
+    };
 
 const PieConfig = {
 	datasets: [{
@@ -772,10 +789,8 @@ const PieConfig = {
                    
                 </div>
 
-                <div >
-                    <UCard class="h-28">
-                      <BarChart :chartData="testData" :height="100"  />
-                    </UCard>
+                <div class="h-28 rounded-md border dark:border-none shadow-lg px-4 py-2 " >
+                    <BarChart :chartData="testData" :height="150"  />
                 </div>
 
             </div>
