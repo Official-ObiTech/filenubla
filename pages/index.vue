@@ -1,9 +1,10 @@
 <template>
-  <div class="container bg-slate-100/50 dark:bg-slate-800 lg:px-4">
-    <div class="top-0 left-0 right-0 sticky bg-background/75 backdrop-blur z-50 ">
+  <div class="bg-slate-100/50 dark:bg-slate-800 lg:px-4">
+    <div
+      class="top-0 left-0 right-0 sticky bg-background/75 backdrop-blur z-50"
+    >
       <onboarding-navTop />
     </div>
-
 
     <div class="py-0 sm:py-32" orientation="horizontal">
       <dashborad-hero />
@@ -22,7 +23,9 @@
       <dashborad-supporter />
     </div>
 
-    <div class="border-t border-gray-200 dark:border-gray-800 left-0 right-0 bottom-0 ">
+    <div
+      class="border-t border-gray-200 dark:border-gray-800 left-0 right-0 bottom-0"
+    >
       <dashborad-footer />
     </div>
   </div>
