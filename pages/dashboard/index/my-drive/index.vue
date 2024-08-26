@@ -224,10 +224,33 @@
  
  
              <div class="hidden lg:grid grid-cols-2 items-center px-6 py-2 my-2 border border-slate-800/50 dark:border-slate-100/50 rounded-lg shadow-md ">
- 
                  <div class="flex items-center gap-4">
                    <UIcon size="24" name="i-material-symbols-folder-rounded"/>
                    <p class="">Camera</p>
+                 </div>
+
+                 <div class="grid grid-cols-4 items-center">
+                   <p class="flex items-center gap-2">
+                   <UAvatar icon="i-heroicons-photo" size="sm" />me
+                   </p>
+                   <p class="">Jun 18, 2023</p>
+                   <p class="justify-end flex">13.7 MB</p>  
+                   <p class="justify-end flex items-center">
+                       <UButton
+                       icon="i-carbon-overflow-menu-vertical"
+                       size="sm"
+                       square
+                       variant="ghost"
+                       />
+                   </p>
+                 </div>
+                                  
+             </div> 
+
+             <div class="hidden lg:grid grid-cols-2 items-center px-6 py-2 my-2 border border-slate-800/50 dark:border-slate-100/50 rounded-lg shadow-md "> 
+                 <div class="flex items-center gap-4">
+                   <UIcon size="24" name="i-material-symbols-folder-rounded"/>
+                   <p class="">Photos</p>
                  </div>
                  <div class="grid grid-cols-4 items-center">
                    <p class="flex items-center gap-2">
@@ -247,366 +270,7 @@
                   
              </div> 
  
-             <div class="hidden lg:grid grid-cols-4 items-center px-6 py-2 my-2 border border-slate-800/50 dark:border-slate-100/50 rounded-lg shadow-md ">
-                 <div class="flex items-center gap-6">
-                 <img src="../../../assets/cloud.png" alt="" class="size-8" />
-                 <p class="">IMG_3040.HEIC</p>
-                 </div>
-                 <p class="">You created Jun 18, 2023</p>
-                 <p class="justify-end flex items-center gap-2">
-                 <UAvatar icon="i-heroicons-photo" size="sm" />me
-                 </p>
-                 <p class="justify-end flex items-center">
-                     <UButton
-                     icon="i-carbon-overflow-menu-vertical"
-                     size="sm"
-                     square
-                     variant="ghost"
-                     />
-                 </p>
-             </div> 
- 
-             <div class="hidden lg:grid grid-cols-4 items-center px-6 py-2 my-2 border border-slate-800/50 dark:border-slate-100/50 rounded-lg shadow-md ">
-                 <div class="flex items-center gap-6">
-                 <img src="../../../assets/cloud.png" alt="" class="size-8" />
-                 <p class="">IMG_3040.HEIC</p>
-                 </div>
-                 <p class="">You created Jun 18, 2023</p>
-                 <p class="justify-end flex items-center gap-2">
-                 <UAvatar icon="i-heroicons-photo" size="sm" />me
-                 </p>
-                 <p class="justify-end flex items-center">
-                     <UButton
-                     icon="i-carbon-overflow-menu-vertical"
-                     size="sm"
-                     square
-                     variant="ghost"
-                     />
-                 </p>
-             </div> 
- 
-             <div class="hidden lg:grid grid-cols-4 items-center px-6 py-2 my-2 border border-slate-800/50 dark:border-slate-100/50 rounded-lg shadow-md ">
-                 <div class="flex items-center gap-6">
-                 <img src="../../../assets/cloud.png" alt="" class="size-8" />
-                 <p class="">IMG_3040.HEIC</p>
-                 </div>
-                 <p class="">You created Jun 18, 2023</p>
-                 <p class="justify-end flex items-center gap-2">
-                 <UAvatar icon="i-heroicons-photo" size="sm" />me
-                 </p>
-                 <p class="justify-end flex items-center">
-                     <UButton
-                     icon="i-carbon-overflow-menu-vertical"
-                     size="sm"
-                     square
-                     variant="ghost"
-                     />
-                 </p>
-             </div> 
- 
-             <div class="hidden lg:grid grid-cols-4 items-center px-6 py-2 my-2 border border-slate-800/50 dark:border-slate-100/50 rounded-lg shadow-md ">
-                 <div class="flex items-center gap-6">
-                 <img src="../../../assets/cloud.png" alt="" class="size-8" />
-                 <p class="">IMG_3040.HEIC</p>
-                 </div>
-                 <p class="">You created Jun 18, 2023</p>
-                 <p class="justify-end flex items-center gap-2">
-                 <UAvatar icon="i-heroicons-photo" size="sm" />me
-                 </p>
-                 <p class="justify-end flex items-center">
-                     <UButton
-                     icon="i-carbon-overflow-menu-vertical"
-                     size="sm"
-                     square
-                     variant="ghost"
-                     />
-                 </p>
-             </div>
- 
-             <div class="hidden lg:grid grid-cols-4 items-center px-6 py-2 my-2 border border-slate-800/50 dark:border-slate-100/50 rounded-lg shadow-md ">
-                 <div class="flex items-center gap-6">
-                 <img src="../../../assets/cloud.png" alt="" class="size-8" />
-                 <p class="">IMG_3040.HEIC</p>
-                 </div>
-                 <p class="">You created Jun 18, 2023</p>
-                 <p class="justify-end flex items-center gap-2">
-                 <UAvatar icon="i-heroicons-photo" size="sm" />me
-                 </p>
-                 <p class="justify-end flex items-center">
-                     <UButton
-                     icon="i-carbon-overflow-menu-vertical"
-                     size="sm"
-                     square
-                     variant="ghost"
-                     />
-                 </p>
-             </div> 
- 
-             <div class="hidden lg:grid grid-cols-4 items-center px-6 py-2 my-2 border border-slate-800/50 dark:border-slate-100/50 rounded-lg shadow-md ">
-                 <div class="flex items-center gap-6">
-                 <img src="../../../assets/cloud.png" alt="" class="size-8" />
-                 <p class="">IMG_3040.HEIC</p>
-                 </div>
-                 <p class="">You created Jun 18, 2023</p>
-                 <p class="justify-end flex items-center gap-2">
-                 <UAvatar icon="i-heroicons-photo" size="sm" />me
-                 </p>
-                 <p class="justify-end flex items-center">
-                     <UButton
-                     icon="i-carbon-overflow-menu-vertical"
-                     size="sm"
-                     square
-                     variant="ghost"
-                     />
-                 </p>
-             </div> 
- 
-             <div class="hidden lg:grid grid-cols-4 items-center px-6 py-2 my-2 border border-slate-800/50 dark:border-slate-100/50 rounded-lg shadow-md ">
-                 <div class="flex items-center gap-6">
-                 <img src="../../../assets/cloud.png" alt="" class="size-8" />
-                 <p class="">IMG_3040.HEIC</p>
-                 </div>
-                 <p class="">You created Jun 18, 2023</p>
-                 <p class="justify-end flex items-center gap-2">
-                 <UAvatar icon="i-heroicons-photo" size="sm" />me
-                 </p>
-                 <p class="justify-end flex items-center">
-                     <UButton
-                     icon="i-carbon-overflow-menu-vertical"
-                     size="sm"
-                     square
-                     variant="ghost"
-                     />
-                 </p>
-             </div> 
- 
-             <div class="hidden lg:grid grid-cols-4 items-center px-6 py-2 my-2 border border-slate-800/50 dark:border-slate-100/50 rounded-lg shadow-md ">
-                 <div class="flex items-center gap-6">
-                 <img src="../../../assets/cloud.png" alt="" class="size-8" />
-                 <p class="">IMG_3040.HEIC</p>
-                 </div>
-                 <p class="">You created Jun 18, 2023</p>
-                 <p class="justify-end flex items-center gap-2">
-                 <UAvatar icon="i-heroicons-photo" size="sm" />me
-                 </p>
-                 <p class="justify-end flex items-center">
-                     <UButton
-                     icon="i-carbon-overflow-menu-vertical"
-                     size="sm"
-                     square
-                     variant="ghost"
-                     />
-                 </p>
-             </div> 
- 
-             <div class="hidden lg:grid grid-cols-4 items-center px-6 py-2 my-2 border border-slate-800/50 dark:border-slate-100/50 rounded-lg shadow-md ">
-                 <div class="flex items-center gap-6">
-                 <img src="../../../assets/cloud.png" alt="" class="size-8" />
-                 <p class="">IMG_3040.HEIC</p>
-                 </div>
-                 <p class="">You created Jun 18, 2023</p>
-                 <p class="justify-end flex items-center gap-2">
-                 <UAvatar icon="i-heroicons-photo" size="sm" />me
-                 </p>
-                 <p class="justify-end flex items-center">
-                     <UButton
-                     icon="i-carbon-overflow-menu-vertical"
-                     size="sm"
-                     square
-                     variant="ghost"
-                     />
-                 </p>
-             </div>
- 
-             <div class="hidden lg:grid grid-cols-4 items-center px-6 py-2 my-2 border border-slate-800/50 dark:border-slate-100/50 rounded-lg shadow-md ">
-                 <div class="flex items-center gap-6">
-                 <img src="../../../assets/cloud.png" alt="" class="size-8" />
-                 <p class="">IMG_3040.HEIC</p>
-                 </div>
-                 <p class="">You created Jun 18, 2023</p>
-                 <p class="justify-end flex items-center gap-2">
-                 <UAvatar icon="i-heroicons-photo" size="sm" />me
-                 </p>
-                 <p class="justify-end flex items-center">
-                     <UButton
-                     icon="i-carbon-overflow-menu-vertical"
-                     size="sm"
-                     square
-                     variant="ghost"
-                     />
-                 </p>
-             </div> 
- 
-             <div class="hidden lg:grid grid-cols-4 items-center px-6 py-2 my-2 border border-slate-800/50 dark:border-slate-100/50 rounded-lg shadow-md ">
-                 <div class="flex items-center gap-6">
-                 <img src="../../assets/cloud.png" alt="" class="size-8" />
-                 <p class="">IMG_3040.HEIC</p>
-                 </div>
-                 <p class="">You created Jun 18, 2023</p>
-                 <p class="justify-end flex items-center gap-2">
-                 <UAvatar icon="i-heroicons-photo" size="sm" />me
-                 </p>
-                 <p class="justify-end flex items-center">
-                     <UButton
-                     icon="i-carbon-overflow-menu-vertical"
-                     size="sm"
-                     square
-                     variant="ghost"
-                     />
-                 </p>
-             </div> 
- 
-             <div class="hidden lg:grid grid-cols-4 items-center px-6 py-2 my-2 border border-slate-800/50 dark:border-slate-100/50 rounded-lg shadow-md ">
-                 <div class="flex items-center gap-6">
-                 <img src="../../../assets/cloud.png" alt="" class="size-8" />
-                 <p class="">IMG_3040.HEIC</p>
-                 </div>
-                 <p class="">You created Jun 18, 2023</p>
-                 <p class="justify-end flex items-center gap-2">
-                 <UAvatar icon="i-heroicons-photo" size="sm" />me
-                 </p>
-                 <p class="justify-end flex items-center">
-                     <UButton
-                     icon="i-carbon-overflow-menu-vertical"
-                     size="sm"
-                     square
-                     variant="ghost"
-                     />
-                 </p>
-             </div> 
- 
-             <div class="hidden lg:grid grid-cols-4 items-center px-6 py-2 my-2 border border-slate-800/50 dark:border-slate-100/50 rounded-lg shadow-md ">
-                 <div class="flex items-center gap-6">
-                 <img src="../../../assets/cloud.png" alt="" class="size-8" />
-                 <p class="">IMG_3040.HEIC</p>
-                 </div>
-                 <p class="">You created Jun 18, 2023</p>
-                 <p class="justify-end flex items-center gap-2">
-                 <UAvatar icon="i-heroicons-photo" size="sm" />me
-                 </p>
-                 <p class="justify-end flex items-center">
-                     <UButton
-                     icon="i-carbon-overflow-menu-vertical"
-                     size="sm"
-                     square
-                     variant="ghost"
-                     />
-                 </p>
-             </div> 
- 
-             <div class="hidden lg:grid grid-cols-4 items-center px-6 py-2 my-2 border border-slate-800/50 dark:border-slate-100/50 rounded-lg shadow-md ">
-                 <div class="flex items-center gap-6">
-                 <img src="../../../assets/cloud.png" alt="" class="size-8" />
-                 <p class="">IMG_3040.HEIC</p>
-                 </div>
-                 <p class="">You created Jun 18, 2023</p>
-                 <p class="justify-end flex items-center gap-2">
-                 <UAvatar icon="i-heroicons-photo" size="sm" />me
-                 </p>
-                 <p class="justify-end flex items-center">
-                     <UButton
-                     icon="i-carbon-overflow-menu-vertical"
-                     size="sm"
-                     square
-                     variant="ghost"
-                     />
-                 </p>
-             </div> 
- 
-             <div class="hidden lg:grid grid-cols-4 items-center px-6 py-2 my-2 border border-slate-800/50 dark:border-slate-100/50 rounded-lg shadow-md ">
-                 <div class="flex items-center gap-6">
-                 <img src="../../../assets/cloud.png" alt="" class="size-8" />
-                 <p class="">IMG_3040.HEIC</p>
-                 </div>
-                 <p class="">You created Jun 18, 2023</p>
-                 <p class="justify-end flex items-center gap-2">
-                 <UAvatar icon="i-heroicons-photo" size="sm" />me
-                 </p>
-                 <p class="justify-end flex items-center">
-                     <UButton
-                     icon="i-carbon-overflow-menu-vertical"
-                     size="sm"
-                     square
-                     variant="ghost"
-                     />
-                 </p>
-             </div> 
- 
-             <div class="hidden lg:grid grid-cols-4 items-center px-6 py-2 my-2 border border-slate-800/50 dark:border-slate-100/50 rounded-lg shadow-md ">
-                 <div class="flex items-center gap-6">
-                 <img src="../../../assets/cloud.png" alt="" class="size-8" />
-                 <p class="">IMG_3040.HEIC</p>
-                 </div>
-                 <p class="">You created Jun 18, 2023</p>
-                 <p class="justify-end flex items-center gap-2">
-                 <UAvatar icon="i-heroicons-photo" size="sm" />me
-                 </p>
-                 <p class="justify-end flex items-center">
-                     <UButton
-                     icon="i-carbon-overflow-menu-vertical"
-                     size="sm"
-                     square
-                     variant="ghost"
-                     />
-                 </p>
-             </div> 
- 
-             <div class="hidden lg:grid grid-cols-4 items-center px-6 py-2 my-2 border border-slate-800/50 dark:border-slate-100/50 rounded-lg shadow-md ">
-                 <div class="flex items-center gap-6">
-                 <img src="../../../assets/cloud.png" alt="" class="size-8" />
-                 <p class="">IMG_3040.HEIC</p>
-                 </div>
-                 <p class="">You created Jun 18, 2023</p>
-                 <p class="justify-end flex items-center gap-2">
-                 <UAvatar icon="i-heroicons-photo" size="sm" />me
-                 </p>
-                 <p class="justify-end flex items-center">
-                     <UButton
-                     icon="i-carbon-overflow-menu-vertical"
-                     size="sm"
-                     square
-                     variant="ghost"
-                     />
-                 </p>
-             </div> 
- 
-             <div class="hidden lg:grid grid-cols-4 items-center px-6 py-2 my-2 border border-slate-800/50 dark:border-slate-100/50 rounded-lg shadow-md ">
-                 <div class="flex items-center gap-6">
-                 <img src="../../../assets/cloud.png" alt="" class="size-8" />
-                 <p class="">IMG_3040.HEIC</p>
-                 </div>
-                 <p class="">You created Jun 18, 2023</p>
-                 <p class="justify-end flex items-center gap-2">
-                 <UAvatar icon="i-heroicons-photo" size="sm" />me
-                 </p>
-                 <p class="justify-end flex items-center">
-                     <UButton
-                     icon="i-carbon-overflow-menu-vertical"
-                     size="sm"
-                     square
-                     variant="ghost"
-                     />
-                 </p>
-             </div> 
- 
-             <div class="hidden lg:grid grid-cols-4 items-center px-6 py-2 my-2 border border-slate-800/50 dark:border-slate-100/50 rounded-lg shadow-md ">
-                 <div class="flex items-center gap-6">
-                 <img src="../../../../assets/cloud.png" alt="" class="size-8" />
-                 <p class="">IMG_3040.HEIC</p>
-                 </div>
-                 <p class="">You created Jun 18, 2023</p>
-                 <p class="justify-end flex items-center gap-2">
-                 <UAvatar icon="i-heroicons-photo" size="sm" />me
-                 </p>
-                 <p class="justify-end flex items-center">
-                     <UButton
-                     icon="i-carbon-overflow-menu-vertical"
-                     size="sm"
-                     square
-                     variant="ghost"
-                     />
-                 </p>
-             </div> 
+
              
              </div> 
  

@@ -45,42 +45,15 @@
           </li>
         </ul>
 
-        <div class="flex items-center justify-end lg:flex-1 gap-1">
-          <!-- <div class="relative inline-flex">
-                        <UButton
-                            icon="i-heroicons-magnifying-glass"
-                            size="sm"
-                            class="text-gray-700 dark:text-gray-200 font-medium gap-x-1 hover:bg-gray-50"
-                            variant="ghost"
-                        />
-                    </div> -->
+        <div class="flex items-center justify-end lg:flex-1 gap-4">
 
           <div class="relative inline-flex">
             <DashboradColorModeSwitch />
           </div>
-
-          <UButton
-            class="hidden lg:block"
-            v-if="!$auth.loggedIn"
-            icon="i-heroicons-arrow-right-on-rectangle-20-solid"
-            size="lg"
-            color="primary"
-            variant="soft"
-            :trailing="false"
-          >
-            <LoginLink to="/api/login" external> Sign in </LoginLink></UButton
-          >
-          <UButton
-            v-else
-            icon="i-heroicons-arrow-right-on-rectangle-20-solid"
-            size="lg"
-            to="/dashboard"
-            color="primary"
-            variant="soft"
-            :trailing="false"
-          >
-            Dashboard</UButton
-          >
+          
+          <div class="lg:block hidden ">
+              <avatar />
+            </div>
 
           <div class="relative inline-flex lg:hidden">
             <DashboradNavSide />

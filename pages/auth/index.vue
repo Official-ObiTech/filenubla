@@ -20,6 +20,8 @@
               variant="ghost"
               class="border flex items-center py-2.5"
               label=" Continue with Google"
+              icon="i-logos-google-icon"
+              
             />
             <UButton
               block
@@ -27,6 +29,7 @@
               variant="ghost"
               class="border flex items-center py-2.5"
               label="Continue with GitHub"
+              icon="i-logos-github-icon"
             />
           </div>
 
@@ -54,6 +57,8 @@
                 block
                 type="submit"
                 class="py-2.5 mt-8 dark:text-white bg-primary dark:bg-primary"
+                icon="i-logos-mandrill"
+                to="/dashboard"
                 >Continue with Email</UButton
               >
             </UForm>

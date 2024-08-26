@@ -18,22 +18,22 @@
 
         
            
-        <div class="flex items-center justify-end lg:flex-1 gap-1">
-          <div class="lg:absolute lg:left-72">
+        <div class="flex items-center justify-end lg:flex-1 gap-36">
+          <div class="">
             <search-field />
           </div>
 
+         <div class="gap-6 flex items-center">
           <div class="relative inline-flex">
             <DashboradColorModeSwitch />
           </div>
 
-            <sign-out />
             <div class="lg:block hidden ">
               <avatar />
             </div>
 
               <mobile-menu />
-
+            </div>
         </div>
       </div>
     </header>

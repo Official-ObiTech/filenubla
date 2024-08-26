@@ -1,5 +1,5 @@
 <template>
-  <div class="container bg-slate-100/50 dark:bg-slate-800">
+  <div class="container bg-slate-100/50 dark:bg-slate-800 lg:px-4">
     <div class="top-0 left-0 right-0 sticky bg-background/75 backdrop-blur z-50 ">
       <onboarding-navTop />
     </div>

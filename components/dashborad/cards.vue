@@ -209,7 +209,7 @@
 
 <style>
     .wrapper {
-            width: 95%;
+            width: 100%;
             max-width: 1536px;
             margin-inline: auto;
             position: relative;
