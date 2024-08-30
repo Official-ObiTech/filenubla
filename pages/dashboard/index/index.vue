@@ -791,6 +791,7 @@ const PieConfig = {
 
                 <div class="h-28 rounded-md border dark:border-none shadow-lg px-4 py-2 " >
                     <BarChart :chartData="testData" :height="150"  />
+                    <Graph />
                 </div>
 
             </div>
