@@ -1,7 +1,7 @@
 <template>
     <div>
   
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 wrapper "> 
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 relative lg:h-52 overflow-hidden mt-6 -m-auto h-28 gap-8 w-full "> 
             <UCard class="item item1">
         
                 <div class="mb-2 pointer-events-none">
@@ -101,11 +101,11 @@
 
         </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 wrapper "> 
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 relative lg:h-52 overflow-hidden mt-6 -m-auto h-28 gap-8 w-full "> 
             <UCard class="items item1">
         
                 <div class="mb-2 pointer-events-none">
-                    <UIcon name="i-heroicons-bolt" class="w-8 h-8  text-gray-900 dark:text-white "/>
+                    <UIcon name="i-heroicons-bolt" class="lg:size-8 size-3  text-gray-900 dark:text-white "/>
                 </div>
 
                 <p class="text-gray-900 font-bold text-base dark:white truncate dark:text-white">
@@ -208,15 +208,6 @@
 </script>
 
 <style>
-    .wrapper {
-            width: 100%;
-            max-width: 1536px;
-            margin-inline: auto;
-            position: relative;
-            height: 200px;
-            margin-top: 3rem;
-            overflow: hidden;
-        }
 
         @keyframes scrollLeft {
             to {
